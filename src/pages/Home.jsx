@@ -1,6 +1,6 @@
 import Card from "../components/Card";
 
-export function Home() {
+export default function Home() {
   return (
     <div>
       <Card />

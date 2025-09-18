@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { dir } from "i18next";
 
-export function Card() {
+export default function Card() {
   const [lang, setLang] = useState("en");
   const { t, i18n } = useTranslation();
   //   useEffect(() => {
