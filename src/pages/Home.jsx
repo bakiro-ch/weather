@@ -1,9 +1,9 @@
 import { Card } from "../components/card";
 
-export const Home = () => {
+export function Home() {
   return (
     <div>
       <Card />
     </div>
   );
-};
+}
