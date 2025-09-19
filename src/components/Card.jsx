@@ -9,9 +9,6 @@ import { dir } from "i18next";
 export default function Card() {
   const [lang, setLang] = useState("en");
   const { t, i18n } = useTranslation();
-  //   useEffect(() => {
-  //     i18n.changeLanguage(lang);
-  //   }, [lang]);
 
   const { temp, date } = useWeatherApi(moment, lang);
 
