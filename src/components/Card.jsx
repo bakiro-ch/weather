@@ -15,10 +15,10 @@ export default function Card() {
   return (
     <div
       dir={lang === "ar" ? "rtl" : "ltr"}
-      className="bg-blue-700 w-full h-screen flex items-center justify-center"
+      className="bg-blue-700 w-full h-screen flex items-center justify-center "
     >
-      <div className=" max-w-110 w-5/12 min-w-80 h-6/12 md:h-6/12  max-h-80 flex-col flex items-center gap-y-1 justify-center">
-        <div className="bg-blue-900 text-white rounded-2xl w-full h-full shadow-2xl">
+      <div className=" max-w-110 w-5/12 min-w-90 h-5/12 md:h-6/12  max-h-80 flex-col flex items-center gap-y-1 justify-center px-3">
+        <div className="bg-blue-900 text-white rounded-2xl w-full h-full shadow-2xl py-3">
           <div className="flex justify-around h-1/4 items-center">
             <h1 className="text-3xl">{t("Al-Riyadh")}</h1>
             <h4 className="text-sm text-white/90 w-20 ">{date} </h4>
